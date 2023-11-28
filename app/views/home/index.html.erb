@@ -126,6 +126,7 @@ td ul li {
   <div class="container-fluid ">
     <i class="fa-solid fa-book fa-2xl m-3" style="color: #caa8f5;"></i>
   </div>
+  <%= button_to 'Sair', destroy_user_session_path, method: :delete, data: {method: :delete, turbo_method: :delete}%>
 </nav>
 
 <div class="container">
